@@ -1,0 +1,96 @@
+# Unity project: keep Assets, Packages, ProjectSettings and source .meta files.
+# References:
+# https://docs.unity.com/en-us/unity-version-control/ignore-files
+# https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# Regenerated Unity directories
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+.utmp/
+
+# IDE caches and generated solution/project files
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.DotSettings.user
+
+# Rider personal settings; shared .idea settings remain trackable.
+# Recursive patterns also cover .idea/.idea.<solution>/.idea/.
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries/
+.idea/**/shelf/
+.idea/**/aws.xml
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/httpRequests/
+.idea/**/caches/
+.idea/**/copilot.data.migration.*.xml
+
+# Shared Visual Studio component configuration
+!/.vsconfig
+
+# Generated Rider Unity integration
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Logs, crash reports, debug metadata and Blender backups
+*.log
+sysinfo.txt
+mono_crash.*
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+*.blend1
+*.blend1.meta
+
+# Exported build artifacts
+*.apk
+*.aab
+*.app
+*.unitypackage
+*.unitypackage.meta
+crashlytics-build.properties
+
+# Generated Addressables, Visual Scripting and test data
+/ServerData/
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db*
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/[Aa]ssets/[Ss]ceneDependencyCache*
+/UIElementsSchema/
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
